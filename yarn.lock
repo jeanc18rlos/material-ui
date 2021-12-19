@@ -2313,12 +2313,26 @@
     glob-to-regexp "^0.3.0"
 
 "@mui/core@^5.0.0-alpha.54":
-  version "0.0.0"
-  uid ""
+  version "5.0.0-alpha.60"
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+    "@emotion/is-prop-valid" "^1.1.1"
+    "@mui/utils" "^5.2.3"
+    "@popperjs/core" "^2.4.4"
+    clsx "^1.1.1"
+    prop-types "^15.7.2"
+    react-is "^17.0.2"
 
 "@mui/core@link:./packages/mui-base":
-  version "0.0.0"
-  uid ""
+  version "5.0.0-alpha.60"
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+    "@emotion/is-prop-valid" "^1.1.1"
+    "@mui/utils" "^5.2.3"
+    "@popperjs/core" "^2.4.4"
+    clsx "^1.1.1"
+    prop-types "^15.7.2"
+    react-is "^17.0.2"
 
 "@mui/x-data-grid-generator@^5.0.1":
   version "5.0.1"
@@ -13021,13 +13035,6 @@ pirates@^4.0.0, pirates@^4.0.1:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.4.tgz#07df81e61028e402735cdd49db701e4885b4e6e6"
   integrity sha512-ZIrVPH+A52Dw84R0L3/VS9Op04PuQ2SEoJL6bkshmiTic/HldyW9Tf7oH5mhJZBK7NmDx27vSMrYEXPXclpDKw==
 
-pixelmatch@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/pixelmatch/-/pixelmatch-5.2.1.tgz#9e4e4f4aa59648208a31310306a5bed5522b0d65"
-  integrity sha512-WjcAdYSnKrrdDdqTcVEY7aB7UhhwjYQKYhHiBXdJef0MOaQeYpUdQ+iVyBLa5YBKS8MPVPPMX7rpOByISLpeEQ==
-  dependencies:
-    pngjs "^4.0.1"
-
 piscina@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/piscina/-/piscina-3.2.0.tgz#f5a1dde0c05567775690cccefe59d9223924d154"
@@ -13038,6 +13045,13 @@ piscina@^3.2.0:
     hdr-histogram-percentiles-obj "^3.0.0"
   optionalDependencies:
     nice-napi "^1.0.2"
+
+pixelmatch@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/pixelmatch/-/pixelmatch-5.2.1.tgz#9e4e4f4aa59648208a31310306a5bed5522b0d65"
+  integrity sha512-WjcAdYSnKrrdDdqTcVEY7aB7UhhwjYQKYhHiBXdJef0MOaQeYpUdQ+iVyBLa5YBKS8MPVPPMX7rpOByISLpeEQ==
+  dependencies:
+    pngjs "^4.0.1"
 
 pkg-dir@^2.0.0:
   version "2.0.0"
@@ -14045,10 +14059,10 @@ recharts-scale@^0.4.4:
   dependencies:
     decimal.js-light "^2.4.1"
 
-recharts@*, recharts@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/recharts/-/recharts-2.1.6.tgz#04b96233a30be27ae08a20795a980853397046ec"
-  integrity sha512-KnRNnCum1hL27DYhUfcdcKUEQkYnda6G+KDN4n/nCiTKp7UzJSgHfFHQvCkBujPi/U98dGd430DA2/8RJpkPlg==
+recharts@*, recharts@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/recharts/-/recharts-2.1.8.tgz#ca8774fcec5f5d7ec15dedd638db9ee12faf1c09"
+  integrity sha512-Wi7ufdDGyvy/BPf1za1Ok7VeWB2KtEejaewO9ulmlUhvn5l5RPS4AOkrUfhtMRTTjgJ4K6AbWMDpwtDjczUHJA==
   dependencies:
     "@types/d3-interpolate" "^2.0.0"
     "@types/d3-scale" "^3.0.0"
